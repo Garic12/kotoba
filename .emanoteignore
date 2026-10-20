@@ -1,0 +1,3 @@
+# Nicht veröffentlichen (FilePattern-Syntax, relativ zum Repo-Root)
+_vorlagen/**
+docs/**

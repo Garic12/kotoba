@@ -3,6 +3,7 @@
 
 page:
   siteTitle: Kotoba
+  lang: de
 
 template:
   theme: red
@@ -12,3 +13,60 @@ template:
     collapsed: false
 
   urlStrategy: pretty
+
+  # Deutsche Bedienelemente (Emanote liefert nur en/fr/zh mit)
+  i18n:
+    de:
+      siteTitle: Kotoba
+      home: Startseite
+      goToHome: Zur Startseite
+      index: Index
+      viewIndex: Index anzeigen
+      tags: Tags
+      viewTags: Tags anzeigen
+      tasks: Aufgaben
+      viewTasks: Aufgaben anzeigen
+      search: Suchen (Strg+K)
+      searchPlaceholder: Suchen (Strg+K) ...
+      toggleDarkMode: Dunkelmodus umschalten
+      toggleSidebar: Seitenleiste umschalten
+      maximizeNoteArea: Textbereich maximieren
+      restoreNoteArea: Layout wiederherstellen
+      siteIcon: Seiten-Icon
+      tag: Tag
+      viewFolgezettelChildren: Unterseiten anzeigen
+      childrenInsideTitle: "{count} Unterseiten"
+      onThisPage: Auf dieser Seite
+      timeline: Timeline
+      linkedFrom: Verlinkt von
+      subtags: Unter-Tags
+      notes: Notizen
+      footnotes: Fußnoten
+      footnote: Fußnote
+      footnoteLabel: Fußnote {idx}
+      copyLink: Link kopieren
+      copyLinkToHeading: Link zur Überschrift kopieren
+      embeddedNote: Eingebettete Seite
+      openPdf: PDF öffnen
+      videoUnsupported: Dein Browser unterstützt kein HTML5-Video. Hier ist stattdessen ein {link}.
+      videoLinkText: Link zum Video
+      audioUnsupported: Dein Browser unterstützt kein HTML5-Audio. Hier ist stattdessen ein {link}.
+      audioLinkText: Link zur Audiodatei
+      copyCode: Code kopieren
+      copyCodeToClipboard: Code in die Zwischenablage kopieren
+      copied: Kopiert!
+      copyFailed: Kopieren fehlgeschlagen
+      missingLink: "! Fehlender Link"
+      ambiguousLink: "! Mehrdeutiger Link"
+      brokenLinkTooltip: "Link ist kaputt"
+      ambiguousLinkTooltip: "Link ist mehrdeutig"
+      emanoteError: Emanote-Fehler
+      badYamlFiles: "Emanote: fehlerhafte YAML-Dateien"
+      notebookIssue: In deinem Notizbuch gibt es ein Problem.
+      fixIt: Behebe es (die Seite lädt dann neu) oder {link}.
+      goToRoot: zu / gehen
+      taskIndex: Aufgabenübersicht
+      tagIndex: Tag-Übersicht
+      tagIndexTitle: "{tag} - Tag-Übersicht"
+      generatedByVersion: Erstellt mit Emanote {version}
+      embeds: bettet ein

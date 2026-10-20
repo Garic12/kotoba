@@ -1,0 +1,5 @@
+# Artikel
+
+```query
+path:Artikel/*
+```

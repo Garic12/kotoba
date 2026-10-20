@@ -1,0 +1,7 @@
+---
+tags: []
+---
+<!-- Speichern als Notizen/YYYY-MM-DD-titel.md – das Datum wird aus dem Dateinamen gelesen. -->
+
+# Titel
+
