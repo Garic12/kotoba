@@ -29,7 +29,7 @@
             # Optimized for deploying to https://<user>.github.io/<repo-name> URLs
             github-io = default // {
               check = false;
-              extraConfig.template.baseUrl = "/emanote-template/";
+              extraConfig.template.baseUrl = "https://garic12.github.io/kotoba/";
             };
           };
         };
