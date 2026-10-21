@@ -6,7 +6,7 @@ page:
   lang: de
 
 template:
-  theme: red
+  theme: blue
   editBaseUrl: https://github.com/garic12/kotoba/
 
   sidebar:
