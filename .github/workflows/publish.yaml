@@ -21,6 +21,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: nixbuild/nix-quick-install-action@v33
+        with:
+          # cache.nixos.asia (from flake.nix nixConfig) is sometimes flaky;
+          # don't let its outages fail the build.
+          nix_conf: |
+            fallback = true
+            connect-timeout = 10
+            download-attempts = 2
       - name: Build the website (Nix) 🔧
         run: |
           nix --accept-flake-config build .#github-io -o ./_site
